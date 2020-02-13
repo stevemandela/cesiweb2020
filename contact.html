@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>MADERA</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <div class="wrapper">
+    <!-- Navigation -->
+    <header>
+      <img class="logo" src="image/logo.png" alt="logo">
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="solutions.html">Nos solutions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p onclick="openNav()" class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()">&times;</a>
+      <div class="overlay__content">
+        <li><a href="index.html">Accueil</a></li>
+        <a href="solutions.html">Nos solutions</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+
+  <!-- SUBHEADER -->
+  <section id="subheader" style="text-align: center;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1>Contact</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN PAGE -->
+  <section id="page" class="contact">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2><span class="primary-text">Contacter</span> nous</h2>
+          <p>Nous sommes à votre disposition</p>
+          <form>
+            <div>
+              <label for="name">Name</label><br>
+              <input type="text" name="name">
+            </div>
+            <div>
+              <label for="email">Email</label><br>
+              <input type="text" name="email">
+            </div>
+            <div>
+              <label for="message">Message</label><br>
+              <textarea name="message"></textarea>
+            </div>
+            <button type="submit" name="button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+
+   <footer>
+      <p>Madera &copy; 2020</p>
+    </footer>
+
+</div>  
+
+<script type="text/javascript" src="js/mobile.js"></script>
+
+</body>
+</html>
