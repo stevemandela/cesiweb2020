@@ -246,6 +246,7 @@ header {
   transition: all 0.3s ease 0s;
 }
 
+/* specifi l'apparence au moment ou on survole l'element*/
 .overlay a:hover,
 .overlay a:focus {
   color: #0088a9;
@@ -284,24 +285,26 @@ header {
   margin-bottom:40px;
 }
 
-/* CONTACT */
+/* CONTACT  style*/
 .contact form{
   background:#333;
   color:#fff;
   padding:20px;
 }
-
+/* agir sur l'input text*/
 .contact form input[type="text"]{
   width:50%;
   height:30px;
   margin-bottom:10px;
 }
 
+/* agir sur le textarea*/
 .contact form textarea{
   width:50%;
   height:100px;
 }
 
+/* agir sur le button*/
 .contact form button{
   width:50%;
   padding:10px 0;
@@ -310,6 +313,7 @@ header {
   color:#fff;
 }
 
+/* agir sur le label*/
 .contact form label{
   text-transform:uppercase;
 }
