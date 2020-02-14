@@ -1,2 +1,2 @@
 # cesiweb2020
-http://steve-mandela.ril.nte.ovh/
+https://steve-mandela.ril.nte.ovh/
